@@ -41,9 +41,9 @@ export default function Navbar() {
       >
         <a href="#home" className="flex items-center gap-2 font-display text-lg font-bold">
           <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-accent to-accent-warm text-white">
-            A
+            G
           </span>
-          <span className="gradient-text">Aurora</span>
+          <span className="gradient-text">Gaurav</span>
         </a>
 
         <ul className="hidden items-center gap-1 md:flex">

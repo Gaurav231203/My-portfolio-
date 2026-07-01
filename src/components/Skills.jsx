@@ -5,7 +5,7 @@ import { skills, skillCopy } from '../data.js'
 
 export default function Skills() {
   const { t, i18n } = useTranslation()
-  const lang = skillCopy.design[i18n.resolvedLanguage] ? i18n.resolvedLanguage : 'en'
+  const lang = skillCopy.frontend[i18n.resolvedLanguage] ? i18n.resolvedLanguage : 'en'
 
   return (
     <section className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24">
@@ -14,11 +14,15 @@ export default function Skills() {
           {t('skills.title')}
         </h2>
       </Reveal>
-      <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="-mx-5 mt-12 flex snap-x snap-mandatory gap-5 overflow-x-auto px-5 py-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {skills.map((skill, i) => {
           const copy = skillCopy[skill.key][lang]
           return (
-            <Reveal key={skill.key} delay={0.05 * i}>
+            <Reveal
+              key={skill.key}
+              delay={0.05 * i}
+              className="w-64 shrink-0 snap-start sm:w-72"
+            >
               <TiltCard className="h-full rounded-3xl" glare={false}>
                 <div className="glass h-full rounded-3xl p-6">
                   <div

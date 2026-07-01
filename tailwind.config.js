@@ -10,8 +10,8 @@ export default {
       },
       colors: {
         ink: {
-          DEFAULT: '#0b0b14',
-          soft: '#12121f',
+          DEFAULT: '#050509',
+          soft: '#0b0b14',
         },
         cream: '#f6f3ec',
         accent: {

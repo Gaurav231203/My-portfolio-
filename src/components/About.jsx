@@ -12,7 +12,7 @@ export default function About() {
             <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-gradient-to-br from-accent/20 to-accent-warm/20 blur-2xl" />
             <div className="glass aspect-square w-full rounded-[2rem] p-1">
               <div className="grid h-full place-items-center rounded-[1.8rem] bg-gradient-to-br from-accent/10 via-transparent to-accent-warm/10">
-                <div className="animate-float text-8xl">🧑‍🎨</div>
+                <div className="animate-float text-8xl">🧑‍💻</div>
               </div>
             </div>
           </div>

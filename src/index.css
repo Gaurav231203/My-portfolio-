@@ -26,6 +26,13 @@ body {
     radial-gradient(40rem 40rem at 50% 120%, rgba(167, 139, 250, 0.2), transparent 60%);
 }
 
+.dark .aurora-bg {
+  background:
+    radial-gradient(60rem 60rem at 10% -10%, rgba(124, 92, 255, 0.16), transparent 60%),
+    radial-gradient(50rem 50rem at 100% 0%, rgba(255, 157, 108, 0.1), transparent 55%),
+    radial-gradient(40rem 40rem at 50% 120%, rgba(167, 139, 250, 0.12), transparent 60%);
+}
+
 .glass {
   @apply backdrop-blur-xl bg-white/50 border border-white/40 shadow-lg;
 }
@@ -58,7 +65,7 @@ body {
   will-change: transform;
 }
 .tilt-card__inner {
-  transform: translateZ(60px);
+  transform: translateZ(24px);
 }
 
 @media (prefers-reduced-motion: reduce) {

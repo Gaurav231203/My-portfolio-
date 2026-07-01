@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next'
 
 const socials = [
   { label: 'GitHub', href: '#', icon: '⌘' },
-  { label: 'Dribbble', href: '#', icon: '◐' },
   { label: 'LinkedIn', href: '#', icon: 'in' },
   { label: 'X', href: '#', icon: '𝕏' },
 ]
@@ -16,9 +15,9 @@ export default function Footer() {
       <div className="glass flex flex-col items-center justify-between gap-4 rounded-2xl px-6 py-5 sm:flex-row">
         <div className="flex items-center gap-2 font-display font-bold">
           <span className="grid h-7 w-7 place-items-center rounded-lg bg-gradient-to-br from-accent to-accent-warm text-sm text-white">
-            A
+            G
           </span>
-          <span className="gradient-text">Aurora Vale</span>
+          <span className="gradient-text">Gaurav</span>
         </div>
         <div className="flex gap-2">
           {socials.map((s) => (
@@ -33,7 +32,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="text-center text-xs opacity-60 sm:text-right">
-          © {year} Aurora Vale. {t('footer.rights')}
+          © {year} Gaurav. {t('footer.rights')}
           <br className="hidden sm:block" />
           {t('footer.made')}
         </p>

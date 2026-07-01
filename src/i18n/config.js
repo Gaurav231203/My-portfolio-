@@ -2,16 +2,10 @@ import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import en from './locales/en.json'
-import es from './locales/es.json'
-import fr from './locales/fr.json'
-import de from './locales/de.json'
 import hi from './locales/hi.json'
 
 export const languages = [
   { code: 'en', label: 'English', flag: '🇬🇧' },
-  { code: 'es', label: 'Español', flag: '🇪🇸' },
-  { code: 'fr', label: 'Français', flag: '🇫🇷' },
-  { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
   { code: 'hi', label: 'हिन्दी', flag: '🇮🇳' },
 ]
 
@@ -21,11 +15,9 @@ i18n
   .init({
     resources: {
       en: { translation: en },
-      es: { translation: es },
-      fr: { translation: fr },
-      de: { translation: de },
       hi: { translation: hi },
     },
+    supportedLngs: ['en', 'hi'],
     fallbackLng: 'en',
     interpolation: { escapeValue: false },
     detection: {

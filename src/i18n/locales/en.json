@@ -6,42 +6,42 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Hello, I'm",
-    "name": "Aurora Vale",
-    "roles": ["Creative Developer", "3D Designer", "Motion Artist"],
-    "tagline": "I craft immersive, aesthetic web experiences where design meets dimension.",
+    "greeting": "Hi, I'm",
+    "name": "Gaurav",
+    "roles": ["Full-Stack Engineer", "Backend Developer", "Frontend Developer", "Cloud & DevOps"],
+    "tagline": "I design and ship end-to-end web applications — from clean, responsive UIs to scalable APIs and cloud infrastructure.",
     "cta": "View my work",
     "cta2": "Get in touch",
     "scroll": "Scroll to explore"
   },
   "about": {
     "title": "About me",
-    "body": "I'm a creative developer blending code, 3D and motion into interfaces that feel alive. With a love for minimal aesthetics and playful detail, I build products that are as delightful to use as they are to look at.",
+    "body": "I'm a full-stack software engineer who loves turning ideas into production-ready products. I work across the entire stack — building performant React front-ends, robust Node.js back-ends, and reliable cloud infrastructure. I care about clean architecture, good developer experience, and shipping fast without breaking things.",
     "stats": {
-      "experience": "Years of craft",
+      "experience": "Years of experience",
       "projects": "Projects shipped",
       "clients": "Happy clients"
     }
   },
   "projects": {
     "title": "Selected work",
-    "subtitle": "A few things I've designed and built recently.",
+    "subtitle": "A few things I've built recently.",
     "items": [
       {
-        "title": "Nebula Commerce",
-        "description": "An immersive 3D storefront with real-time product configuration."
+        "title": "SaaS Platform",
+        "description": "A multi-tenant SaaS with auth, billing and a real-time dashboard."
       },
       {
-        "title": "Pulse Analytics",
-        "description": "A living dashboard that turns data into motion and meaning."
+        "title": "GraphQL API",
+        "description": "A typed GraphQL gateway with caching and rate limiting at scale."
       },
       {
-        "title": "Mono Studio",
-        "description": "A minimalist brand site with buttery scroll-driven animation."
+        "title": "Realtime Chat",
+        "description": "A WebSocket-powered chat app with presence and message history."
       },
       {
-        "title": "Drift Player",
-        "description": "A spatial audio player with generative visuals reacting to sound."
+        "title": "Cloud Infra",
+        "description": "Dockerized services with automated CI/CD pipelines on AWS."
       }
     ]
   },
@@ -50,9 +50,9 @@
   },
   "contact": {
     "title": "Let's build something",
-    "subtitle": "Have a project in mind or just want to say hi? My inbox is always open.",
+    "subtitle": "Have a project in mind or a role to fill? My inbox is always open.",
     "cta": "Say hello",
-    "email": "hello@auroravale.dev"
+    "email": "hello@gaurav.dev"
   },
   "footer": {
     "rights": "All rights reserved.",
