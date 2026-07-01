@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Work",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Aurora Vale",
+    "roles": ["Creative Developer", "3D Designer", "Motion Artist"],
+    "tagline": "I craft immersive, aesthetic web experiences where design meets dimension.",
+    "cta": "View my work",
+    "cta2": "Get in touch",
+    "scroll": "Scroll to explore"
+  },
+  "about": {
+    "title": "About me",
+    "body": "I'm a creative developer blending code, 3D and motion into interfaces that feel alive. With a love for minimal aesthetics and playful detail, I build products that are as delightful to use as they are to look at.",
+    "stats": {
+      "experience": "Years of craft",
+      "projects": "Projects shipped",
+      "clients": "Happy clients"
+    }
+  },
+  "projects": {
+    "title": "Selected work",
+    "subtitle": "A few things I've designed and built recently.",
+    "items": [
+      {
+        "title": "Nebula Commerce",
+        "description": "An immersive 3D storefront with real-time product configuration."
+      },
+      {
+        "title": "Pulse Analytics",
+        "description": "A living dashboard that turns data into motion and meaning."
+      },
+      {
+        "title": "Mono Studio",
+        "description": "A minimalist brand site with buttery scroll-driven animation."
+      },
+      {
+        "title": "Drift Player",
+        "description": "A spatial audio player with generative visuals reacting to sound."
+      }
+    ]
+  },
+  "skills": {
+    "title": "What I do"
+  },
+  "contact": {
+    "title": "Let's build something",
+    "subtitle": "Have a project in mind or just want to say hi? My inbox is always open.",
+    "cta": "Say hello",
+    "email": "hello@auroravale.dev"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "made": "Designed & built with care."
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  }
+}

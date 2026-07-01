@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-ink font-sans antialiased transition-colors duration-500;
+}
+
+.dark body {
+  @apply bg-ink text-cream;
+}
+
+/* Aesthetic layered background */
+.aurora-bg {
+  background:
+    radial-gradient(60rem 60rem at 10% -10%, rgba(124, 92, 255, 0.25), transparent 60%),
+    radial-gradient(50rem 50rem at 100% 0%, rgba(255, 157, 108, 0.18), transparent 55%),
+    radial-gradient(40rem 40rem at 50% 120%, rgba(167, 139, 250, 0.2), transparent 60%);
+}
+
+.glass {
+  @apply backdrop-blur-xl bg-white/50 border border-white/40 shadow-lg;
+}
+
+.dark .glass {
+  @apply bg-white/5 border-white/10;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(120deg, #7c5cff, #ff9d6c, #a78bfa);
+  background-size: 200% auto;
+  animation: shimmer 8s linear infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-accent-soft/50 rounded-full;
+}
+
+/* 3D tilt card */
+.tilt-card {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.tilt-card__inner {
+  transform: translateZ(60px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
