@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Work",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Gaurav",
+    "roles": ["Full-Stack Engineer", "Backend Developer", "Frontend Developer", "Cloud & DevOps"],
+    "tagline": "I design and ship end-to-end web applications — from clean, responsive UIs to scalable APIs and cloud infrastructure.",
+    "cta": "View my work",
+    "cta2": "Get in touch",
+    "scroll": "Scroll to explore"
+  },
+  "about": {
+    "title": "About me",
+    "body": "I'm a full-stack software engineer who loves turning ideas into production-ready products. I work across the entire stack — building performant React front-ends, robust Node.js back-ends, and reliable cloud infrastructure. I care about clean architecture, good developer experience, and shipping fast without breaking things.",
+    "stats": {
+      "experience": "Years of experience",
+      "projects": "Projects shipped",
+      "clients": "Happy clients"
+    }
+  },
+  "projects": {
+    "title": "Selected work",
+    "subtitle": "A few things I've built recently.",
+    "items": [
+      {
+        "title": "SaaS Platform",
+        "description": "A multi-tenant SaaS with auth, billing and a real-time dashboard."
+      },
+      {
+        "title": "GraphQL API",
+        "description": "A typed GraphQL gateway with caching and rate limiting at scale."
+      },
+      {
+        "title": "Realtime Chat",
+        "description": "A WebSocket-powered chat app with presence and message history."
+      },
+      {
+        "title": "Cloud Infra",
+        "description": "Dockerized services with automated CI/CD pipelines on AWS."
+      }
+    ]
+  },
+  "skills": {
+    "title": "What I do"
+  },
+  "contact": {
+    "title": "Let's build something",
+    "subtitle": "Have a project in mind or a role to fill? My inbox is always open.",
+    "cta": "Say hello",
+    "email": "hello@gaurav.dev"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "made": "Designed & built with care."
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  }
+}
